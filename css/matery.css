@@ -267,9 +267,9 @@ mark {
     margin-bottom: 0;
 }
 /* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */
-.bg-color {
-    /* background-image: linear-gradient(to right, #717770 0%, #0f9d58 100%); */
-}
+/* .bg-color {
+     background-image: linear-gradient(to right, #717770 0%, #0f9d58 100%); 
+} */
 
 .text-color {
     color: #0f9d58 !important;
@@ -1496,8 +1496,8 @@ thead {
         left: 50%;
         margin-left: -20px;
         /* Force Hardware Acceleration in WebKit */
-        -webkit-transform: translateZ(0);
-        -webkit-backface-visibility: hidden;
+        /* -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden; */
     }
 
     .cssanimations .cd-timeline-img.is-hidden {
@@ -2052,8 +2052,8 @@ footer .copy-right {
 
 /*二级菜单*/
 
-.nav-menu {
-}
+/* .nav-menu {
+} */
 
 .nav-menu li .sub-nav {
     position: absolute;
